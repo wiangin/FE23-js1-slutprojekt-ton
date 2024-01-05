@@ -1,0 +1,181 @@
+
+#headerDiv{
+    display: flex;
+    background-color: black;
+    flex-direction: column;
+    height: 150px;
+    color: white;
+}
+
+#logoDiv{
+    display: flex;
+    gap: 0.5rem;
+    justify-content: center;
+    margin-top: 2rem;
+    cursor: pointer;
+}
+
+#logoDiv div{
+    font-size: 2rem;
+    gap: 30px;
+}
+
+.popcornImg{
+    width: 40px;
+    margin: 0.5rem;
+}
+
+.headingText{
+    font-size: 2rem;
+    margin-left: 2.3rem;
+    margin-bottom: 0;
+}
+
+.topRated_PopularTextStyle{
+    display: inline;
+    margin-left: 0.5rem;
+    cursor: default;
+}
+
+.topRated_PopularTextStyle:hover{
+    font-style: italic;
+    color: wheat;
+}
+
+.bigMovieCard{
+    box-sizing: border-box;
+    width: 400px;
+    margin: 1.5rem 2.3rem;
+}
+
+.smallMovieCard{
+    box-sizing: border-box;
+    width: 200px;
+    margin: 1.5rem 2.6rem;
+}
+
+#flexContainer{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#userInput{
+    border-radius: 8px;
+    border: 1px solid black;
+    padding-left: 10px;
+    
+}
+
+.fontWeight{
+    font-weight: bold;
+    font-size: 1.5rem;
+    margin-bottom: 0;
+}
+
+#userInput{
+    height: 20px;
+}
+
+#topRatedText{
+    cursor: pointer;
+}
+
+#popularText{
+    cursor: pointer;
+}
+
+.hide{
+    display: none;
+}
+
+.displayStyle{
+    display: block;
+}
+
+.noPicstyle{
+    width: 200px;
+    /* height: 600px;  */
+    padding: 200px 100px;
+    border: 1px solid black;
+}
+
+.errorDiv{
+    height: 100vh;
+}
+
+.playTrailerStyle:hover{
+    cursor: pointer;
+    font-style: italic;
+    font-size: 1.2rem;
+}
+
+::backdrop{
+    background-color: rgba(0, 0, 0, 0.90);
+}
+
+#dialogStyle{
+    border: none;
+    background-color: rgba(0, 0, 0, 0);
+    border-radius: 12px;
+}
+
+.removeVideo{
+    display: none;
+}
+
+#closeBtnStyle{
+    margin-left: 10px;
+    background-image: linear-gradient(to right,rgb(214, 67, 214), rgb(246, 154, 169));
+    border-radius: 8px;
+    font-weight: bold;
+    border: none;
+    height: 30px;
+    cursor: pointer;
+    position: relative;
+    top: -10px;
+}
+
+iframe{
+    border: none;
+    height: 515px;
+    width: 760px;
+    position: relative;
+    border-radius: 12px;
+}
+
+form{
+    margin: auto;
+    /* text-align: center; */
+    font-size: 1.5rem;
+}
+
+img{
+    border-radius: 12px;
+}
+
+button{
+    margin-left: 10px;
+    background-image: linear-gradient(to right,rgb(214, 67, 214), rgb(246, 154, 169));
+    border-radius: 8px;
+    font-weight: bold;
+    border: none;
+    height: 30px;
+    cursor: pointer;
+}
+
+li{
+    list-style: none;
+}
+
+footer{
+    height: 100px;
+    background-color: black;
+    display: flex;
+    justify-content: space-evenly;
+    color: wheat;
+}
+
+footer div{
+    margin: auto;
+    font-weight: bold;
+}

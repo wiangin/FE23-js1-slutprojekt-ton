@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="#" type="image/x-icon">
+    <script src="./lib/anime.min.js"></script>
+    <script src="./script_main.js" type="module"></script>
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Movies database</title>
+</head>
+<body>
+    <header id="headerDiv">
+        <div id="logoDiv">
+            <div>
+                <img src="./img/popcorn.png" alt="popcorn" class="popcornImg">
+            </div>
+            <div>The</div>
+            <div>Movies</div>
+            <div>DataBase</div>
+            <div>
+                <img src="./img/popcorn.png" alt="popcorn" class="popcornImg">
+            </div>
+        </div>
+       
+        <form>
+            <input type="text" id="userInput" required placeholder="Search">
+    
+            <input type="radio" id="movie" name="name" value="movie" checked>
+            <label for="movie">Movies</label>
+    
+            <input type="radio" id="name" name="name" value="person">
+            <label for="name">Actor</label>
+            
+            <p id="topRatedText" class="topRated_PopularTextStyle">Top Rated</p>
+            <p id="popularText" class="topRated_PopularTextStyle">Popular</p>
+
+            <button>Search</button>
+        </form>
+    </header>
+
+    <div id="mainDiv">
+        <h1 id="heading"></h1>
+        <div id="flexContainer"></div> <!--Movies show here-->
+    </div>
+    
+    <dialog id="dialogStyle"></dialog> <!--This dialog contain video trailer-->
+
+    <footer>    
+        <div>
+        <p>Created by Ton</p>
+        <p>Grit Academy FE23</p>
+        </div>
+        <div>Last updated : 2024-01-05</div>  
+    </footer>
+    
+</body>
+</html>
